@@ -10,14 +10,16 @@ h1 {
 }
 
 .top1 {
-    width: 40%;
+    width: 45%;
     padding: 20px 100px;
     margin-top: 40px;
+
 }
 
 .top2 {
-    width: 40%;
-    padding: 20px 100px;
+    width: 35%;
+    padding: 20px 2px;
+
 }
 
 .orange {
@@ -38,8 +40,10 @@ h1 {
 }
 
 #border-left {
-    border-left: 4px solid;
-    border-color: orangered;
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+
 }
 
 #heading-my-mission {
@@ -118,5 +122,15 @@ h1 {
 }
 
 .develop h1 {
+    font-size: 40px;
+}
+
+.global {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.global h1 {
     font-size: 40px;
 }
