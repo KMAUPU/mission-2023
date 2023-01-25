@@ -1,0 +1,90 @@
+.stay {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.top1 {
+    width: 40%;
+    padding: 20px 100px;
+    margin-top: 40px;
+}
+
+.top2 {
+    width: 40%;
+    padding: 20px 100px;
+}
+
+.orange {
+    color: orange;
+}
+
+.photo-person {
+    width: 80%;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background-image: linear-gradient(cyan, blue);
+    padding: 10px 20px;
+
+}
+
+#border-left {
+    border-left: 4px solid;
+    border-color: orangered;
+}
+
+#heading-my-mission {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.parent-of-boxes {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+
+}
+
+.three-box {
+    width: 25%;
+    padding: 10px 10px;
+
+}
+
+.three-box h1 {
+    font-size: 20px;
+}
+
+.three-box img {
+    width: 40%;
+}
+
+#box1 {
+    background-color: aquamarine;
+    margin: 4px 20px;
+    border-radius: 15px;
+}
+
+#box2 {
+    background-color: navajowhite;
+    margin: 4px 20px;
+    border-radius: 15px;
+
+}
+
+#box3 {
+    background-color: lightskyblue;
+    margin: 4px 20px;
+    border-radius: 15px;
+}
