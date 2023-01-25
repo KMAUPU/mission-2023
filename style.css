@@ -67,7 +67,7 @@ h1 {
 }
 
 .three-box img {
-    width: 40%;
+    width: 40%;/
 }
 
 #box1 {
@@ -87,4 +87,36 @@ h1 {
     background-color: lightskyblue;
     margin: 4px 20px;
     border-radius: 15px;
+}
+
+.number-three {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+}
+
+.develop {
+    width: 47%;
+    padding: 5px 5px;
+    margin-top: 40px;
+}
+
+.develop-pic {
+    width: 30%;
+    padding-left: 100px;
+    margin-top: 40px;
+
+}
+
+.coding-photo {
+    width: 80%;
+}
+
+.develop h1 {
+    font-size: 40px;
 }
